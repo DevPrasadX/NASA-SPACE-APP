@@ -65,50 +65,55 @@ const HomePage = () => {
       
     <Navbar />
       
-      <div className={styles.containers}>
-          <div className={styles.section}>
-            <h2>Apollo 11 (July 20, 1969)</h2>
-            <p>{moonquakes[0].launch}</p>
-            <p>{moonquakes[0].land}</p>
-            <p>{moonquakes[0].total}</p>
-            <p>{moonquakes[0].description}</p>
-          </div>
-          <div className={styles.section}>
-            <h2>Apollo 12 (November 14, 1969)</h2>
-            <p>{moonquakes[1].launch}</p>
-            <p>{moonquakes[1].land}</p>
-            <p>{moonquakes[1].total}</p>
-            <p>{moonquakes[1].description}</p>
-          </div>
-          <div className={styles.section}>
-            <h2>Apollo 14 (February 5, 1971):</h2>
-            <p>{moonquakes[2].launch}</p>
-            <p>{moonquakes[2].land}</p>
-            <p>{moonquakes[2].total}</p>
-            <p>{moonquakes[2].description}</p>
-          </div>
-          <div className={styles.section}>
-            <h2>Apollo 15 (July 30, 1971):</h2>
-            <p>{moonquakes[3].launch}</p>
-            <p>{moonquakes[3].land}</p>
-            <p>{moonquakes[3].total}</p>
-            <p>{moonquakes[3].description}</p>
-          </div>
-          <div className={styles.section}>
-            <h2>Apollo 16 (April 21, 1972):</h2>
-            <p>{moonquakes[4].launch}</p>
-            <p>{moonquakes[4].land}</p>
-            <p>{moonquakes[4].total}</p>
-            <p>{moonquakes[4].description}</p>
-          </div>
-          <div className={styles.section}>
-            <h2>Apollo 17 (December 11, 1972):</h2>
-            <p>{moonquakes[5].launch}</p>
-            <p>{moonquakes[5].land}</p>
-            <p>{moonquakes[5].total}</p>
-            <p>{moonquakes[5].description}</p>
-          </div>
-        </div>
+    <div className={styles.containers}>
+  <div className={styles.row}>
+    <div className={styles.section}>
+      <h2>Apollo 11 (July 20, 1969)</h2>
+      <p>{moonquakes[0].launch}</p>
+      <p>{moonquakes[0].land}</p>
+      <p>{moonquakes[0].total}</p>
+      <p>{moonquakes[0].description}</p>
+    </div>
+    <div className={styles.section}>
+      <h2>Apollo 12 (November 14, 1969)</h2>
+      <p>{moonquakes[1].launch}</p>
+      <p>{moonquakes[1].land}</p>
+      <p>{moonquakes[1].total}</p>
+      <p>{moonquakes[1].description}</p>
+    </div>
+    <div className={styles.section}>
+      <h2>Apollo 14 (February 5, 1971):</h2>
+      <p>{moonquakes[2].launch}</p>
+      <p>{moonquakes[2].land}</p>
+      <p>{moonquakes[2].total}</p>
+      <p>{moonquakes[2].description}</p>
+    </div>
+  </div>
+  <div className={styles.row}>
+    <div className={styles.section}>
+      <h2>Apollo 15 (July 30, 1971):</h2>
+      <p>{moonquakes[3].launch}</p>
+      <p>{moonquakes[3].land}</p>
+      <p>{moonquakes[3].total}</p>
+      <p>{moonquakes[3].description}</p>
+    </div>
+    <div className={styles.section}>
+      <h2>Apollo 16 (April 21, 1972):</h2>
+      <p>{moonquakes[4].launch}</p>
+      <p>{moonquakes[4].land}</p>
+      <p>{moonquakes[4].total}</p>
+      <p>{moonquakes[4].description}</p>
+    </div>
+    <div className={styles.section}>
+      <h2>Apollo 17 (December 11, 1972):</h2>
+      <p>{moonquakes[5].launch}</p>
+      <p>{moonquakes[5].land}</p>
+      <p>{moonquakes[5].total}</p>
+      <p>{moonquakes[5].description}</p>
+    </div>
+  </div>
+</div>
+
     
         
     </>
